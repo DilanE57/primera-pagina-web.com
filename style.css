@@ -100,9 +100,14 @@ section{
     color: white;
 }
 
+nav .logo img{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
 
 @media screen and (max-width:900px) {
-
+    
     .menu{
         display: flex;
         flex-direction: column;
@@ -153,5 +158,8 @@ section{
     .contenido p{
         width: 300px;
     }
+
 }
+
+
 
