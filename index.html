@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Dilan Espinoza</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/84a3fca9be.js" crossorigin="anonymous"></script>
-</head>
-<body>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primera Web</title>
+    <link rel="shortcut icon" href="./Img/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/84a3fca9be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <nav>
-        <a href="#" class="logo">
-            <img src="#" alt="Logo">
-        </a>
-        <ul class="menu">
-            <li><i class="fas fa-bars"></i></li>
-            <li><a href="">Contenido</a></li>
-            <li><a href="">Acerca de</a></li>
-        </ul>
-    </nav>  
+      <h1 class="logo">Dilan Espinoza</h1>
+      <ul class="menu">
+        <li><i class="fas fa-bars"></i></li>
+        <li><a href="#contac">Contacto</a></li>
+      </ul>
+    </nav>
     <section>
-        <div class="contenido">
+      <div class="contenido">
+        <h1 class="title">Acerca de</h1>
+        <p>
+          Hola, mi nombre es Dilan Espinoza y esta es mi primera pagina web
+          realizada con Html y Css, soy un desarollador web joven que esta
+          empezando por este mundo de la programacion.
 
-            <h1 class="title">Dilan Espinoza</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem culpa consequuntur ea tenetur, rem esse doloremque provident aliquid earum nesciunt, fugit asperiores optio quas cupiditate tempore minus saepe accusamus hic. <br>
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum repellat ipsam ea repudiandae ab, voluptatibus perferendis dignissimos tenetur deserunt impedit ut temporibus atque possimus soluta. Molestiae omnis et cumque!
-            </p>
-        </div>
-        <div class="cajas-container">
-            <div class="caja_1 cajas"></div>
-            <div class="caja_2 cajas"></div>
-            <div class="caja_3 cajas"></div>
-            <div class="caja_4 cajas"></div>
-            <div class="caja_5 cajas"></div>
-            <div class="caja_6 cajas"></div>
-        </div>
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum
+          repellat ipsam ea repudiandae ab, voluptatibus perferendis dignissimos
+          tenetur deserunt impedit ut temporibus atque possimus soluta.
+          Molestiae omnis et cumque!
+        </p>
+      </div>
+      <div class="cajas-container">
+        <div class="caja_1 cajas"></div>
+        <div class="caja_2 cajas"></div>
+        <div class="caja_3 cajas"></div>
+        <div class="caja_4 cajas"></div>
+        <div class="caja_5 cajas"></div>
+        <div class="caja_6 cajas"></div>
+      </div>
     </section>
-</body>
+
+    <div class="contac-container" id="contac">
+        <h1>Cntactame</h1>
+        <p><i class="fas fa-phone"></i>0959639139</p>
+        <label for="reset">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="email"placeholder="ejempl@gmail.com">
+            <input type="reset" value="Enviar" id="btn">
+        </label>
+    </div>
+  </body>
 </html>
+
